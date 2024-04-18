@@ -1,7 +1,7 @@
 import { Product, Cart, ItemColor, ItemSize } from "./Product";
 
-const serverUrl = "http://localhost:5000";
-const serverCartUrl = "http://localhost:5001/cart";
+const serverUrl = "https://my-json-server.typicode.com/Front-LucasRibeiro/page-category/products";
+const serverCartUrl = "https://my-json-server.typicode.com/Front-LucasRibeiro/page-category/cart";
 const formato = { style: 'currency', currency: 'BRL' };
 const itensByPge = 9;
 const checkedValues: { color: string[], size: string[], price: string[] } = {
@@ -12,7 +12,7 @@ const checkedValues: { color: string[], size: string[], price: string[] } = {
 
 
 function fetchProducts(): Promise<Product[]> {
-  return fetch(`${serverUrl}/products`).then(res => res.json());
+  return fetch(`${serverUrl}`).then(res => res.json());
 }
 
 function fetchCart(): Promise<Cart[]> {

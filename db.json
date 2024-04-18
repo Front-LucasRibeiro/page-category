@@ -216,5 +216,28 @@
       ],
       "date": "2003-12-17"
     }
+  ],
+  "cart": [
+    {
+      "id": "2",
+      "name": "Saia em couro",
+      "price": "398",
+      "image": "img/img_3.png",
+      "qtd": "1"
+    },
+    {
+      "id": "1",
+      "name": "Camiseta Mescla",
+      "price": "28.8",
+      "image": "img/img_2.png",
+      "qtd": "2"
+    },
+    {
+      "id": "4",
+      "name": "Cardigan off white",
+      "price": "99.9",
+      "image": "img/img_5.png",
+      "qtd": "1"
+    }
   ]
 }

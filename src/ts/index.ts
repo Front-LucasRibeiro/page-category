@@ -410,7 +410,7 @@ function getListCart() {
               </div>
             </div>
             <span class="carrinho__remove" data-id="${product.id}">
-              <img src="/img/remove.png" alt="Remover produto" data-id="${product.id}" />
+              <img src="img/remove.png" alt="Remover produto" data-id="${product.id}" />
             </span>
           `;
 
